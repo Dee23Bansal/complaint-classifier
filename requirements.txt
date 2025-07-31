@@ -1,9 +1,8 @@
-fastapi
-uvicorn[standard]
+# REMOVE version pins
 transformers
 torch
-huggingface_hub
-joblib
+numpy
+scikit-learn
 pandas
-requests
-
+uvicorn
+fastapi
